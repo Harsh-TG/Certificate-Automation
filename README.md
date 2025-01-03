@@ -1,6 +1,6 @@
-# Certificate Generator
+# Certificate Automation System
 
-Certificate Generator is a web application designed to automate the process of generating and managing certificates for various courses. The application allows users to request certificates, which can then be approved and generated in PDF format. The generated certificates are stored on Google Drive and can be accessed via a link.
+Certificate Automation System is a web application designed to automate the generation and management of certificates for various courses. The application simplifies the process of requesting, approving, and generating certificates. Once generated, the certificates are stored on Google Drive and accessible via a unique shareable link. This system ensures efficiency, security, and convenience in managing certificates for organizations and individuals.
 
 ## Live Demo
 
@@ -8,12 +8,13 @@ Check out the live website : [Certificate Generator](https://certificate-generat
 
 ## Features
 
-- **CRUD Operations**: Full create, read, update, and delete functionality for certificate generation management.
-- **Certificate Request**: Users can request certificates by providing necessary details.
-- **Certificate Approval**: Admins can approve or reject certificate requests.
-- **PDF Generation**: Generate certificate PDFs with dynamic user data.
-- **Google Drive Integration**: Store generated certificates on Google Drive.
-- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
+- **Certificate Requests:** Users can submit requests for certificates.
+- **Approval Workflow:** Admins can review and approve certificate requests.
+- **PDF Generation:** Certificates are generated automatically in PDF format.
+- **Google Drive Integration:** Generated certificates are securely stored on Google Drive with shareable links.
+- **Template Customization:** Create and customize templates for different types of certificates.
+- **Email Notifications:** Notify users about the status of their certificate requests.
+
 
 ## Technologies Used
 
@@ -27,6 +28,14 @@ Check out the live website : [Certificate Generator](https://certificate-generat
 [![Axios](https://img.shields.io/badge/axios-671ddf?&logo=axios&logoColor=white)](#) &nbsp;&nbsp; 
 [![React Router](https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white)](#) &nbsp;&nbsp; 
 [![Vite](https://img.shields.io/badge/Vite-B73BFE?logo=vite&logoColor=FFD62E)](#)
+
+## Workflow
+- **User Request:** Users submit certificate requests with required details (name, course, completion date, etc.).
+- **Admin Approval:** Admin reviews and approves/rejects requests.
+- **Certificate Generation:** Approved requests trigger automated certificate generation.
+- **Storage:** Certificates are uploaded to Google Drive with appropriate naming conventions.
+- **Link Sharing:** A link to the certificate is generated and shared with the user via email.
+- **Access:** Users can access and download their certificates anytime.
 
 ### Frontend
 
@@ -136,4 +145,4 @@ Feel free to contribute to the Repo:
 5. Open a Pull Request.
 <br/><br/>
 
-## Please Star⭐=>🌟 the Repo if you like the Code, UI, or anything about the Project
+
