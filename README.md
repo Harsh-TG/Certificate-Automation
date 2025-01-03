@@ -81,8 +81,8 @@ To enable Google Drive integration, you need to set up Google Drive API credenti
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/certificate_generator.git
-   cd certificate_generator/server
+   git clone https://github.com/Harsh-TG/Certificate-Automation-System.git
+   cd Certificate-Automation-System/server
 
 2. Install dependencies:
 ```npm install```
@@ -144,5 +144,7 @@ Feel free to contribute to the Repo:
 4. Push to the branch (git push origin feature-branch).
 5. Open a Pull Request.
 <br/><br/>
+
+
 
 
